@@ -1,0 +1,201 @@
+/* chargement des polices */
+/* open sans*/
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../fonts/openSans/woff2/OpenSansCondensed-SemiBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansCondensed-SemiBoldItalic.woff')
+      format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../fonts/openSans/woff2/OpenSansCondensed-SemiBold.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansCondensed-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../fonts/openSans/woff2/OpenSansCondensed-BoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansCondensed-BoldItalic.woff')
+      format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../fonts/openSans/woff2/OpenSansCondensed-Regular.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansCondensed-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../fonts/openSans/woff2/OpenSansCondensed-Bold.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansCondensed-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans SemiCondensed';
+  src: url('../fonts/openSans/woff2/OpenSansSemiCondensed-Bold.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansSemiCondensed-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans SemiCondensed';
+  src: url('../fonts/openSans/woff2/OpenSansSemiCondensed-SemiBold.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansSemiCondensed-SemiBold.woff')
+      format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/openSans/woff2/OpenSans-SemiBold.woff2') format('woff2'),
+    url('../fonts/openSans/woff/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/openSans/woff2/OpenSans-Bold.woff2') format('woff2'),
+    url('../fonts/openSans/woff/OpenSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/openSans/woff2/OpenSans-SemiBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/openSans/woff2/OpenSans-BoldItalic.woff2') format('woff2'),
+    url('../fonts/openSans/woff/OpenSans-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans SemiCondensed';
+  src: url('../fonts/openSans/woff2/OpenSansSemiCondensed-SemiBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansSemiCondensed-SemiBoldItalic.woff')
+      format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans SemiCondensed';
+  src: url('../fonts/openSans/woff2/OpenSansSemiCondensed-Regular.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansSemiCondensed-Regular.woff')
+      format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/openSans/woff2/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/openSans/woff/OpenSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans SemiCondensed';
+  src: url('../fonts/openSans/woff2/OpenSansSemiCondensed-BoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/openSans/woff/OpenSansSemiCondensed-BoldItalic.woff')
+      format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* poppins*/
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/woff2/Poppins-BoldItalic.woff2') format('woff2'),
+    url('../fonts/poppins/woff/Poppins-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/woff2/Poppins-Bold.woff2') format('woff2'),
+    url('../fonts/poppins/woff/Poppins-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ----------------------------------------- */
+/* variables */
+:root {
+  /* fonts */
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Open Sans Condensed', sans-serif;
+  --font-tertiary: 'Open Sans SemiCondensed', sans-serif;
+  --font-quaternary: 'Poppins', sans-serif;
+
+  /* variante open sans */
+  --font-primary-bold: 'Open Sans', sans-serif;
+  --font-primary-italic: 'Open Sans', sans-serif;
+  --font-secondary-bold: 'Open Sans Condensed', sans-serif;
+  --font-secondary-italic: 'Open Sans Condensed', sans-serif;
+  --font-tertiary-bold: 'Open Sans SemiCondensed', sans-serif;
+  --font-tertiary-italic: 'Open Sans SemiCondensed', sans-serif;
+  /* Variantes de Poppins */
+  --font-poppins-bold: 'Poppins', sans-serif;
+  --font-poppins-bold-italic: 'Poppins', sans-serif;
+
+  /* colors */
+  --color-primary: hsl(322, 100%, 66%);
+  --color-secondary: hsl(321, 100%, 78%);
+  --color-tertiary: hsl(0, 100%, 63%);
+  --color-quaternary: hsl(192, 100%, 9%);
+  --color-quinary: hsl(192, 100%, 9%);
+}
+/* ---------------------------------------------- */
