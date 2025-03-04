@@ -207,6 +207,10 @@ h3 {
   color: var(--color-quaternary);
 }
 
+img {
+  object-fit: cover;
+}
+
 #body {
   margin: 70px;
   font-family: var(--font-primary);
@@ -283,3 +287,57 @@ h3 {
   height: auto;
 }
 /*----------------------- stats ---------------------------- */
+.stats {
+  margin: 150px 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.stats__number {
+  color: var(--color-quaternary);
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.stats__label {
+  color: rgb(116 116 116);
+  text-align: center;
+}
+
+.stats__item img {
+  height: auto;
+  width: 35px;
+  fill: red;
+}
+
+/*----------------------- features ---------------------------- */
+
+.features__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 250px 0;
+}
+
+.features__text {
+  width: 50%;
+  padding: 0px 120px 0px 40px;
+  flex: 1;
+}
+
+.features__title {
+  font-size: 30px;
+}
+
+.features__img {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+.features__img img {
+  width: 75%;
+  height: auto;
+  padding-right: 40px;
+}
