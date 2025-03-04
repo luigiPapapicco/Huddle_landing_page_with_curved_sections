@@ -199,3 +199,37 @@
   --color-quinary: hsl(192, 100%, 9%);
 }
 /* ---------------------------------------------- */
+#body {
+  margin: 70px;
+}
+
+.button {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+/*--------------------- header --------------------------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo img {
+  width: 200px;
+  height: auto;
+}
+
+.button--primary {
+  border-color: var(--color-primary);
+}
+
+.button--primary:hover {
+  border-color: var(--color-secondary);
+}
+
+/*------------------------ main -------------------------*/
+
+/*-------------------- main-content ---------------------*/

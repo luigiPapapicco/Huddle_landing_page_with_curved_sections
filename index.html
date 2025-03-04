@@ -1,168 +1,178 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <!-- prettier-ignore -->
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Huddle helps you build communities by engaging in meaningful conversations with your audience."
+    />
+    <meta
+      name="keywords"
+      content="community, engagement, communication, social platform"
+    />
+    <meta name="author" content="Huddle" />
 
-    <!-- fichier css -->
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
 
-    <!-- favicon -->
-  <link
-    rel="icon"
-    href="assets/favicons/favicon.ico"
-    sizes="any"
-    type="image/x-icon"
-  >
-  <link
-    rel="shortcut icon"
-    href="assets/favicons/favicon-32x32.png"
-    sizes="32x32"
-    type="image/x-icon"
-  >
-  <link
-    rel="shortcut icon"
-    href="assets/favicons/favicon-16x16.png"
-    sizes="16x16"
-     type="image/x-icon"
-  >
-  <link
-    rel="apple-touch-icon"
-    href="assets/favicons/apple-touch-icon.png"
-    sizes="180x180"
-  >
-  <link
-    rel="icon"
-    href="assets/favicons/android-chrome-192x192.png"
-    sizes="192x192"
-  >
-  <link
-    rel="icon"
-    href="assets/favicons/android-chrome-512x512.png"
-    sizes="512x512"
-  >
+    <link
+      rel="icon"
+      href="assets/favicons/favicon.ico"
+      sizes="any"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="assets/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      href="assets/favicons/android-chrome-512x512.png"
+      sizes="512x512"
+    />
 
-  <title>Huddle</title>
+    <title>Huddle - Build Your Community</title>
+  </head>
 
-</head>
-  <body>
-    <header>
-      <div class="logo">
-        <!-- prettier-ignore -->
-        <img src="./assets/svg/logo.svg" alt="logo representant une bulle de conversation et le nom de l'entreprise Huddle">
+  <body id="body">
+    <header class="header">
+      <div class="header__logo">
+        <img
+          src="./assets/svg/logo.svg"
+          alt="Huddle logo - a conversation bubble and company name"
+          width="240"
+          height="39"
+        />
       </div>
-      <button class="btn-essai">Try It Free</button>
+      <button class="button button--primary">Try It Free</button>
     </header>
     <main>
-      <article class="main">
-        <h1 class="main-title">Build The Community Your Fans Will Love</h1>
-        <p class="main-content">
-          Huddle re-imqgines the way we build communities. You have a voice, but
+      <article class="main-content">
+        <h1 class="main-content__title">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="main-content__description">
+          Huddle reimagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <button class="main-btn-started">Get Started For Free</button>
-        <!-- prettier-ignore -->
-        <img class="main-illustration" src="./assets/svg/screen-mockups.svg" alt="representation d'une présentation  version desktop et d'une version mobiles">
-        <div>
-          <div class="main-illustration-communities">
-            <!-- prettier-ignore -->
-            <img src="./assets/svg/icon-communities.svg" alt="icone representant une communautée">
-            <p class="">1.4K+</p>
-            <p class="">Community Formed</p>
-          </div>
-          <div class="main-illustration-messages">
-            <!-- prettier-ignore -->
-            <img src="./assets/svg/icon-messages.svg" alt="icone représentant un message">
-            <p class="">2.7m+</p>
-            <p class="">Messages Sent</p>
-          </div>
+        <button class="button button--cta">Get Started For Free</button>
+        <img
+          class="main-content__illustration"
+          src="./assets/svg/screen-mockups.svg"
+          alt="Mockup of desktop and mobile versions of the platform"
+        />
+      </article>
+
+      <section class="stats">
+        <div class="stats__item">
+          <img src="./assets/svg/icon-communities.svg" alt="Community icon" />
+          <p class="stats__number">1.4K+</p>
+          <p class="stats__label">Communities Formed</p>
         </div>
-        <section>
-          <div>
+        <div class="stats__item">
+          <img src="./assets/svg/icon-messages.svg" alt="Message icon" />
+          <p class="stats__number">2.7m+</p>
+          <p class="stats__label">Messages Sent</p>
+        </div>
+      </section>
+
+      <section class="features">
+        <article class="features__item">
+          <div class="features__text">
             <h2>Grow Together</h2>
             <p>
               Generate meaningful discussions with your audience and build a
-              strong, loyal community. Think of th insightful conversations you
-              miss yout on with a feedback form.
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
             </p>
           </div>
-          <div>
-            <!-- prettier-ignore -->
-            <img src="./assets/svg/illustration-grow-together.svg" alt="illustration d'une conversation entre deux personnes" >
-          </div>
-        </section>
-        <section>
-          <div>
+          <img
+            src="./assets/svg/illustration-grow-together.svg"
+            alt="Illustration of two people talking"
+          />
+        </article>
+
+        <article class="features__item">
+          <div class="features__text">
             <h2>Flowing Conversations</h2>
             <p>
               You wouldn't paginate a conversation in real life, so why do it
-              online? Our threads have just-in-time logading for a more natural
+              online? Our threads have just-in-time loading for a more natural
               flow.
             </p>
           </div>
-          <div>
-            <!-- prettier-ignore -->
-            <img src="./assets/svg/illustration-flowing-conversation.svg" alt="illustration d'une conversation entre quatres personnes buvant un café autour d'une table dehors" >
-          </div>
-        </section>
-        <section>
-          <div>
+          <img
+            src="./assets/svg/illustration-flowing-conversation.svg"
+            alt="People chatting over coffee outside"
+          />
+        </article>
+
+        <article class="features__item">
+          <div class="features__text">
             <h2>Your Users</h2>
             <p>
-              it takes no time at all to integrate Huddle with you app's
+              It takes no time at all to integrate Huddle with your app's
               authentication solution. This means, once signed in to your app,
               your users can start chatting immediately.
             </p>
           </div>
-          <div>
-            <!-- prettier-ignore -->
-            <img src="./assets/svg/illustration-your-users.svg" alt="illustration des utilisateur et leurs messages" >
-          </div>
-        </section>
+          <img
+            src="./assets/svg/illustration-your-users.svg"
+            alt="Users messaging each other"
+          />
+        </article>
+      </section>
+
+      <section class="cta">
         <h2>Ready To Build Your Community?</h2>
-        <button>Get started For Free</button>
-      </article>
+        <button class="button button--cta">Get Started For Free</button>
+      </section>
     </main>
-    <footer>
-      <!-- information huddle -->
-      <div>
-        <div class="informations">
-          <!-- prettier-ignore -->
-          <img src="./assets/svg/logo.svg" alt="logo representant une bulle de conversation et le nom de l'entreprise Huddle">
+
+    <footer class="footer">
+      <div class="footer__info">
+        <img src="./assets/svg/logo.svg" alt="Huddle logo" />
+        <p>
+          Huddle helps you connect with your community by fostering meaningful
+          discussions.
+        </p>
+        <div class="footer__contact">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-            temporibus, ut dignissimos quisquam ducimus minima minus molestiae,
-            dolores ab, consectetur cumque odio distinctio excepturi provident
-            sunt. Atque aspernatur beatae nulla.
+            <img src="assets/svg/icon-phone.svg" alt="Phone icon" /> Phone:
+            +1-543-123-4567
+          </p>
+          <p>
+            <img src="assets/svg/icon-email.svg" alt="Email icon" />
+            example@huddle.com
           </p>
         </div>
-        <div>
-          <!-- prettier-ignore -->
-          <img src="" alt="icon illustrant un téléphone" >
-          <p>Phone: +1-543-123-4567</p>
-        </div>
-        <div>
-          <!-- prettier-ignore -->
-          <img src="" alt="icon illustrant un mail" >
-          <p>example@huddle.com</p>
-        </div>
       </div>
-      <div class="socials-links">
-        <a href=""><img src="" alt="icon representant le resaux facebook" /></a>
-        <a href=""
-          ><img src="" alt="icon representant le resaux instagramme"
+
+      <div class="footer__socials">
+        <a href="#"
+          ><img src="./assets/svg/icons-facebook.svg" alt="Facebook"
         /></a>
-        <a href=""><img src="" alt="icon representant le resaux X" /></a>
+        <a href="#"
+          ><img src="./assets/svg/icon-instagram.svg" alt="Instagram"
+        /></a>
+        <a href="#"
+          ><img src="./assets/svg/icon-twitter.svg" alt="Twitter"
+        /></a>
       </div>
-      <!-- newsletter -->
-      <div class="newsletter">
-        <h2>NEWSLETTER</h2>
+
+      <div class="footer__newsletter">
+        <h2>Newsletter</h2>
         <p>
-          to recieve tips on how to grow your community, sign up to your weekly
-          newsletter. We'll never send you spam or pass on your email adress
+          To receive tips on growing your community, sign up for our weekly
+          newsletter. We’ll never send you spam or pass on your email address.
         </p>
         <form action="#" method="POST">
           <input
@@ -172,7 +182,9 @@
             placeholder="your@email.com"
             required
           />
-          <button type="submit">Subscribe</button>
+          <button type="submit" class="button button--subscribe">
+            Subscribe
+          </button>
         </form>
       </div>
     </footer>
