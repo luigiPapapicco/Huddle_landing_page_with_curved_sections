@@ -196,11 +196,20 @@
   --color-secondary: hsl(321, 100%, 78%);
   --color-tertiary: hsl(0, 100%, 63%);
   --color-quaternary: hsl(192, 100%, 9%);
-  --color-quinary: hsl(192, 100%, 9%);
+  --color-quinary: hsl(207, 100%, 98%);
 }
 /* ---------------------------------------------- */
+h1,
+h2,
+h3 {
+  font-family: var(--font-poppins-bold);
+  font-weight: 700;
+  color: var(--color-quaternary);
+}
+
 #body {
   margin: 70px;
+  font-family: var(--font-primary);
 }
 
 .button {
@@ -208,6 +217,7 @@
   border-radius: 25px;
   padding: 5px 25px;
   cursor: pointer;
+  box-shadow: 0px 4px 10px -7px var(--color-quaternary);
 }
 
 /*--------------------- header --------------------------*/
@@ -218,18 +228,58 @@
 }
 
 .header__logo img {
-  width: 200px;
+  width: 240px;
   height: auto;
 }
 
 .button--primary {
+  color: var(--color-primary);
   border-color: var(--color-primary);
+  box-shadow: none;
 }
 
 .button--primary:hover {
+  color: var(--color-secondary);
   border-color: var(--color-secondary);
 }
 
 /*------------------------ main -------------------------*/
 
 /*-------------------- main-content ---------------------*/
+.main-content {
+  margin-top: 150px;
+}
+
+.main-content__title {
+  font-size: 38.5px;
+  text-align: center;
+}
+
+.main-content__description {
+  width: 38%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.button--cta {
+  font-weight: 600;
+  display: block;
+  margin: 40px auto;
+  border: none;
+  color: white;
+  background-color: var(--color-primary);
+  border-radius: 50px;
+  padding: 20px 80px;
+}
+
+.button--cta:hover {
+  background-color: var(--color-secondary);
+}
+
+.main-content__illustration {
+  display: block;
+  margin: 0 auto;
+  width: 62.5%;
+  height: auto;
+}
+/*----------------------- stats ---------------------------- */
