@@ -366,8 +366,19 @@ img {
   text-align: center;
 }
 /*----------------------- footer ---------------------------- */
-
 .footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__deco {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 1px;
+}
+
+.footer__box {
   font-family: var(--font-primary);
   background-color: var(--color-quaternary);
   color: white;
@@ -377,7 +388,7 @@ img {
 
 /* infos */
 .footer__info {
-  margin: 30px 0px 70px 110px;
+  margin: 70px 0px 70px 110px;
   width: 50%;
 }
 
@@ -426,7 +437,7 @@ img {
 /* newletter  */
 .footer__newsletter {
   width: 50%;
-  margin: 30px 110px 70px 0px;
+  margin: 70px 110px 70px 0px;
 }
 
 .footer__newsletter__title {
