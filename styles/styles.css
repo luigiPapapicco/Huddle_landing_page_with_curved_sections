@@ -207,6 +207,11 @@ h3 {
   color: var(--color-quaternary);
 }
 
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
 img {
   object-fit: cover;
 }
